@@ -27,7 +27,7 @@ body {
 .quiz-container {
     background-color: #fff;
     width: 600px;
-    max-width: 100%;
+    max-width: 100%; 
     border-radius: 15px;
     box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -45,10 +45,10 @@ ul {
 ul li {
     margin: 1rem 0;
     font-size: 1.15rem;
-   
+
 }
 
-ul li label{
+ul li label {
     cursor: pointer;
 }
 
@@ -70,4 +70,16 @@ button {
 
 button:hover {
     background-color: #f6d07c;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
 }
